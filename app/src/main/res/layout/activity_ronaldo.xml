@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".RonaldoActivity">
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:background="@drawable/ronaldo"
+            android:scaleType="matrix"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:fontFamily="@font/bmjua"
+            android:textSize="20dp"
+            android:text="포르투갈 국적의 맨체스터 유나이티드 FC 소속 축구선수. 포지션은 중앙 공격수[22]와 윙어이며, 포르투갈 축구 국가대표팀의 주장을 맡고 있다.
+
+축구 역사상 최다 득점자이자 FIFA 주관 A매치 역대 최다 득점자이며, 당연히 포르투갈 축구 국가대표팀의 역대 최다 득점자이다.
+
+UEFA 올해의 선수 최다 수상자이자 동시에 UEFA 챔피언스 리그, UEFA 유로, 레알 마드리드 CF의 역대 최다 득점자이다."
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</LinearLayout>
